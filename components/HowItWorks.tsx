@@ -1,21 +1,21 @@
 const STEPS = [
   {
-    number: '01',
-    title: 'One practice, every day',
+    icon: '📍',
+    title: 'One Practice Daily',
     description:
-      'Each morning, you get one specific action to take. Not a video to watch. Not a concept to learn. Something to actually do.',
+      '30 seconds. That\'s it. Hold eye contact with a stranger. Speak up in a meeting. Set a boundary without apologizing.',
   },
   {
-    number: '02',
-    title: 'Build a streak',
+    icon: '📊',
+    title: 'Track Your Growth',
     description:
-      'Show up daily. The streak keeps you honest. Missing one day doesn\'t erase your progress — but consistency compounds.',
+      'Watch your progress across four confidence dimensions: Presence, Voice, Boundaries, and Social Ease.',
   },
   {
-    number: '03',
-    title: 'Track real growth',
+    icon: '🎯',
+    title: 'Structured Paths',
     description:
-      'Your confidence level rises as you log completions. Watch it climb week over week with the Progress tab.',
+      'Go deeper with 8-week guided programs designed for specific transformations—from social confidence to executive presence.',
   },
 ];
 
@@ -30,10 +30,8 @@ export default function HowItWorks() {
 
         <div className="grid md:grid-cols-3 gap-10">
           {STEPS.map((step) => (
-            <div key={step.number} className="flex flex-col">
-              <span className="font-playfair font-bold text-5xl text-gold/30 mb-4 leading-none">
-                {step.number}
-              </span>
+            <div key={step.title} className="flex flex-col items-start">
+              <span className="text-4xl mb-5">{step.icon}</span>
               <h3 className="font-playfair font-semibold text-charcoal text-xl mb-3">
                 {step.title}
               </h3>

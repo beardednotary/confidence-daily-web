@@ -18,6 +18,10 @@
 }
 
 @layer utilities {
+  .font-playfair {
+    font-feature-settings: "liga" 0;
+  }
+
   .text-caps {
     font-size: 0.7rem;
     font-weight: 600;

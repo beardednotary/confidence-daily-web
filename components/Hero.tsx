@@ -5,14 +5,14 @@ export default function Hero() {
         <p className="text-caps mb-6">Free on the App Store</p>
 
         <h1 className="font-playfair font-bold text-charcoal text-5xl md:text-6xl leading-tight tracking-tight mb-6">
-          Build unshakeable
+          Where <span className="text-gold">Confidence</span>
           <br />
-          <span className="text-gold">confidence</span>, daily.
+          Becomes Habit
         </h1>
 
         <p className="font-inter text-text-secondary text-lg md:text-xl leading-relaxed max-w-xl mx-auto mb-10">
-          One practice a day. Specific, actionable, and designed to create
-          real change — not just motivation.
+          Confidence isn&apos;t something you have—it&apos;s something you build. Get one
+          simple practice each day to strengthen specific confidence skills.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -23,12 +23,12 @@ export default function Hero() {
             className="inline-flex items-center gap-2.5 bg-charcoal text-warm-white font-inter font-semibold text-base px-8 py-4 rounded-xl hover:opacity-90 active:scale-[0.98] transition-all duration-200 shadow-md"
           >
             <AppleIcon />
-            Download on iOS — Free
+            Download on the App Store
           </a>
-          <p className="font-inter text-sm text-text-tertiary">
-            Your daily practice is free forever.
-          </p>
         </div>
+        <p className="font-inter text-sm text-text-tertiary mt-3">
+          Available for iPhone &amp; iPad
+        </p>
 
         {/* Phone mockup placeholder */}
         <div className="mt-16 mx-auto max-w-xs">
