@@ -17,8 +17,8 @@ const config: Config = {
         'text-tertiary': '#9C9490',
       },
       fontFamily: {
-        'playfair': ['Playfair Display', 'Georgia', 'serif'],
-        'inter': ['Inter', 'system-ui', 'sans-serif'],
+        'playfair': ['var(--font-playfair)', 'Georgia', 'serif'],
+        'inter': ['var(--font-inter)', 'system-ui', 'sans-serif'],
       },
       letterSpacing: {
         'caps': '0.08em',

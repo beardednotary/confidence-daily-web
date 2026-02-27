@@ -5,14 +5,14 @@ export default function Hero() {
         <p className="text-caps mb-6">Free on the App Store</p>
 
         <h1 className="font-playfair font-bold text-charcoal text-5xl md:text-6xl leading-tight tracking-tight mb-6">
-          Where <span className="text-gold">Confidence</span>
+          Where <span className="text-gold">Conf{'\u200C'}idence</span>
           <br />
           Becomes Habit
         </h1>
 
         <p className="font-inter text-text-secondary text-lg md:text-xl leading-relaxed max-w-xl mx-auto mb-10">
-          Confidence isn&apos;t something you have—it&apos;s something you build. Get one
-          simple practice each day to strengthen specific confidence skills.
+          Conf{'\u200C'}idence isn&apos;t something you have—it&apos;s something you build. Get one
+          simple practice each day to strengthen specific conf{'\u200C'}idence skills.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -20,9 +20,8 @@ export default function Hero() {
             href="https://apps.apple.com/app/confidence-daily"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 bg-charcoal text-warm-white font-inter font-semibold text-base px-8 py-4 rounded-xl hover:opacity-90 active:scale-[0.98] transition-all duration-200 shadow-md"
+            className="inline-flex items-center bg-charcoal text-warm-white font-inter font-semibold text-base px-8 py-4 rounded-xl hover:opacity-90 active:scale-[0.98] transition-all duration-200 shadow-md"
           >
-            <AppleIcon />
             Download on the App Store
           </a>
         </div>
@@ -53,13 +52,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-  );
-}
-
-function AppleIcon() {
-  return (
-    <svg width="18" height="18" viewBox="0 0 814 1000" fill="currentColor">
-      <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 336.8 1 237.5 1 143.3 1 64.4 48.1 22 92.6 22c83.3 0 133.4 72.4 154.4 72.4 19.5 0 79.5-72.4 162.2-72.4 49.3 0 110.9 24 153.5 93.3zm-161.1-72.4c-6.4-41.6 22.1-84.8 53.2-111.3 35.3-29.6 91.3-51.9 135-51.9 2.8 0 5.6.2 8.4.5-3.3 44.2-21.6 87.5-53.2 118.7-27 27.3-80.5 52-143.4 44z" />
-    </svg>
   );
 }
