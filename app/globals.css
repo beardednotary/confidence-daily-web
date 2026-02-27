@@ -18,10 +18,6 @@
 }
 
 @layer utilities {
-  .font-playfair {
-    font-feature-settings: "liga" 0;
-  }
-
   .text-caps {
     font-size: 0.7rem;
     font-weight: 600;
@@ -29,4 +25,10 @@
     text-transform: uppercase;
     color: #C9A96E;
   }
+}
+
+/* Disable fi/fl ligatures in Playfair Display — placed outside layers to guarantee cascade order */
+.font-playfair {
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0, "clig" 0, "dlig" 0;
 }
