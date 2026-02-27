@@ -1,18 +1,15 @@
 const STEPS = [
   {
-    icon: '📍',
     title: 'One Practice Daily',
     description:
       '30 seconds. That\'s it. Hold eye contact with a stranger. Speak up in a meeting. Set a boundary without apologizing.',
   },
   {
-    icon: '📊',
     title: 'Track Your Growth',
     description:
       'Watch your progress across four confidence dimensions: Presence, Voice, Boundaries, and Social Ease.',
   },
   {
-    icon: '🎯',
     title: 'Structured Paths',
     description:
       'Go deeper with 8-week guided programs designed for specific transformations—from social confidence to executive presence.',
@@ -31,7 +28,6 @@ export default function HowItWorks() {
         <div className="grid md:grid-cols-3 gap-10">
           {STEPS.map((step) => (
             <div key={step.title} className="flex flex-col items-start">
-              <span className="text-4xl mb-5">{step.icon}</span>
               <h3 className="font-playfair font-semibold text-charcoal text-xl mb-3">
                 {step.title}
               </h3>

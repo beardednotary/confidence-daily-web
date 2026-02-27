@@ -41,6 +41,7 @@ export default function Pricing() {
             <p className="font-inter text-warm-white/50 text-sm mb-8">Lifetime</p>
             <ul className="space-y-3 mb-8 flex-1">
               {[
+                'Everything in the free plan',
                 'All structured paths',
                 'Weekly reflections',
                 'Full progress tracking',
@@ -69,6 +70,7 @@ export default function Pricing() {
             <p className="font-inter text-text-tertiary text-sm mb-8">Per month</p>
             <ul className="space-y-3 mb-8 flex-1">
               {[
+                'Everything in the free plan',
                 'All Pro features',
                 'Cancel anytime',
               ].map((item) => (
