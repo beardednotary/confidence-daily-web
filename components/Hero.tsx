@@ -34,7 +34,7 @@ export default function Hero() {
         <div className="mt-16 mx-auto max-w-xs">
           <Image
             src="/app-screenshot.png"
-            alt="Confidence Daily app showing a daily practice prompt and 7-day streak"
+            alt="Confidence Daily app progress screen showing 28 total practices completed and a 6-day streak"
             width={390}
             height={844}
             className="w-full h-auto rounded-[44px] shadow-2xl"
