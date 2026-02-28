@@ -5,6 +5,7 @@ import Features from '@/components/Features';
 import Paths from '@/components/Paths';
 import Pricing from '@/components/Pricing';
 import Testimonials from '@/components/Testimonials';
+import Waitlist from '@/components/Waitlist';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Paths />
       <Pricing />
       <Testimonials />
+      <Waitlist />
 
       {/* Final CTA */}
       <section className="py-24 px-6 bg-charcoal">
