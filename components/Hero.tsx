@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Hero() {
   return (
     <section className="pt-32 pb-20 px-6">
@@ -29,26 +31,15 @@ export default function Hero() {
           Available for iPhone &amp; iPad
         </p>
 
-        {/* Phone mockup placeholder */}
         <div className="mt-16 mx-auto max-w-xs">
-          <div className="relative bg-charcoal rounded-[44px] p-3 shadow-2xl">
-            <div className="bg-warm-white rounded-[36px] overflow-hidden aspect-[9/19]">
-              <div className="h-full flex flex-col items-center justify-center gap-4 p-8">
-                <div className="w-20 h-20 rounded-full border-4 border-gold flex items-center justify-center">
-                  <span className="font-playfair font-bold text-2xl text-gold">7</span>
-                </div>
-                <p className="font-playfair font-semibold text-charcoal text-xl text-center">
-                  Day streak
-                </p>
-                <div className="w-full bg-taupe-light rounded-xl p-4 mt-2">
-                  <p className="text-caps mb-2" style={{ color: '#C9A96E', fontSize: '0.6rem', letterSpacing: '0.08em', textTransform: 'uppercase', fontWeight: 600 }}>Today&apos;s Practice</p>
-                  <p className="font-playfair font-semibold text-charcoal text-sm leading-snug">
-                    Speak first in the next conversation you enter.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Image
+            src="/app-screenshot.png"
+            alt="Confidence Daily app showing a daily practice prompt and 7-day streak"
+            width={390}
+            height={844}
+            className="w-full h-auto rounded-[44px] shadow-2xl"
+            priority
+          />
         </div>
       </div>
     </section>
