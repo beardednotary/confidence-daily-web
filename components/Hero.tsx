@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className="pt-32 pb-20 px-6">
+    <section className="pt-32 pb-0 px-6">
       <div className="max-w-3xl mx-auto text-center">
         <p className="text-caps mb-6">Free on the App Store</p>
 
@@ -27,20 +27,21 @@ export default function Hero() {
             Download on the App Store
           </a>
         </div>
-        <p className="font-inter text-sm text-text-tertiary mt-3">
+        <p className="font-inter text-sm text-text-tertiary mt-3 mb-16">
           Available for iPhone &amp; iPad
         </p>
+      </div>
 
-        <div className="mt-16 mx-auto max-w-xs">
-          <Image
-            src="/app-screenshot.png"
-            alt="Confidence Daily app progress screen showing 28 total practices completed and a 6-day streak"
-            width={390}
-            height={844}
-            className="w-full h-auto rounded-[44px] shadow-2xl"
-            priority
-          />
-        </div>
+      {/* Hero image — full content width, flush to bottom */}
+      <div className="max-w-5xl mx-auto">
+        <Image
+          src="/hero.png"
+          alt="Confidence Daily app screens showing daily practices, progress tracking, and the Social Confidence Path"
+          width={1200}
+          height={800}
+          className="w-full h-auto rounded-t-3xl"
+          priority
+        />
       </div>
     </section>
   );
