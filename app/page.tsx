@@ -22,7 +22,7 @@ export default function Home() {
           alt="Confidence Daily app progress screen showing 28 total practices completed and a 6-day streak"
           width={390}
           height={844}
-          className="w-full max-w-[260px] h-auto rounded-[44px] shadow-2xl"
+          className="w-full max-w-[260px] h-auto rounded-2xl shadow-2xl"
         />
       </div>
 
