@@ -9,7 +9,7 @@ const FEATURES = [
   {
     title: 'Daily Micro-Practices',
     description:
-      'Small actions that actually build confidence. Each practice takes 30 seconds and targets a specific skill. No generic advice. Just clear, actionable steps.',
+      'Small actions that actually build confidence. Each practice takes 30 seconds and targets a specific skill — a clear thing to go do, not a vague tip to think about.',
     extra: null,
   },
   {

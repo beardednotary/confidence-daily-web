@@ -13,8 +13,7 @@ export default function Hero() {
         </h1>
 
         <p className="font-inter text-text-secondary text-lg md:text-xl leading-relaxed max-w-xl mx-auto mb-10">
-          Conf{'\u200C'}idence isn&apos;t something you have—it&apos;s something you build. Get one
-          simple practice each day to strengthen specific conf{'\u200C'}idence skills.
+          One practice per day, thirty seconds each. Every practice targets a specific skill — presence, voice, boundaries, or social ease. Do it enough, and it becomes the default.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

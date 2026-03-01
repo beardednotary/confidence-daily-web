@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm view next dist-tags)",
+      "Bash(npm audit)",
+      "Bash(git add package.json package-lock.json)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Bash(npm run build)",
+      "Bash(git add app/layout.tsx app/page.tsx app/globals.css app/support/page.tsx app/privacy/page.tsx app/about/page.tsx app/terms/page.tsx components/Hero.tsx components/HowItWorks.tsx components/Features.tsx components/Paths.tsx components/Testimonials.tsx components/Pricing.tsx components/Footer.tsx)",
+      "Bash(git add app/globals.css components/Nav.tsx)",
+      "Bash(git add components/Testimonials.tsx components/Pricing.tsx components/HowItWorks.tsx)"
+    ]
+  }
+}

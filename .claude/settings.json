@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add public/app-screenshot.png components/Hero.tsx)"
+    ]
+  }
+}

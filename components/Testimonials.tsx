@@ -22,9 +22,9 @@ export default function Testimonials() {
       <div className="max-w-5xl mx-auto">
         <p className="text-caps text-center mb-4">Early users</p>
         <h2 className="font-playfair font-bold text-charcoal text-4xl text-center tracking-tight mb-14">
-          Real change, not just
+          What people are
           <br />
-          motivation.
+          saying.
         </h2>
 
         <div className="grid md:grid-cols-3 gap-6">
