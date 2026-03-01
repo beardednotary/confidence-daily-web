@@ -51,9 +51,8 @@ export default function AboutPage() {
                 </p>
                 <p>None of that tells you what to do.</p>
                 <p>
-                  Confidence isn&apos;t something you think your way into—it&apos;s something
-                  you practice your way into. Small actions. Repeated consistently.
-                  That&apos;s what actually works.
+                  The only thing that actually moved the needle was doing the thing.
+                  Small actions. Repeated consistently. That&apos;s it.
                 </p>
                 <p>
                   Confidence Daily gives you one clear practice each day. 30 seconds.
@@ -72,9 +71,8 @@ export default function AboutPage() {
                   through exposure, not affirmation.
                 </p>
                 <p>
-                  You don&apos;t become confident by reading quotes or listening to
-                  motivational speeches. You become confident by doing the uncomfortable
-                  thing enough times that it stops being uncomfortable.
+                  Do the uncomfortable thing enough times and it stops being uncomfortable.
+                  That&apos;s the whole mechanism. Everything else is just noise.
                 </p>
                 <p>
                   That&apos;s what this app does. It gives you the uncomfortable thing.
