@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Nav from '@/components/Nav';
 import Hero from '@/components/Hero';
 import HowItWorks from '@/components/HowItWorks';
@@ -14,6 +15,17 @@ export default function Home() {
       <Nav />
       <Hero />
       <HowItWorks />
+
+      <div className="py-12 px-6 bg-white flex justify-center">
+        <Image
+          src="/app-screenshot.png"
+          alt="Confidence Daily app progress screen showing 28 total practices completed and a 6-day streak"
+          width={390}
+          height={844}
+          className="w-full max-w-[260px] h-auto rounded-[44px] shadow-2xl"
+        />
+      </div>
+
       <Features />
       <Paths />
       <Pricing />
