@@ -6,6 +6,7 @@ import Features from '@/components/Features';
 import Paths from '@/components/Paths';
 import Pricing from '@/components/Pricing';
 import Testimonials from '@/components/Testimonials';
+import Waitlist from '@/components/Waitlist';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -30,7 +31,9 @@ export default function Home() {
       <Pricing />
       <Testimonials />
 
-      {/* Final CTA */}
+      <Waitlist />
+
+      {/* Final CTA — restore after app is live
       <section className="py-24 px-6 bg-charcoal">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="font-playfair font-bold text-warm-white text-4xl md:text-5xl tracking-tight mb-4">
@@ -49,6 +52,7 @@ export default function Home() {
           </a>
         </div>
       </section>
+      */}
 
       <Footer />
     </main>
