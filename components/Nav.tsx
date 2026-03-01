@@ -4,8 +4,8 @@ export default function Nav() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-warm-white/90 backdrop-blur-sm border-b border-taupe-light">
       <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
-        <Link href="/" className="font-playfair font-semibold text-charcoal text-lg tracking-tight hover:opacity-80 transition-opacity">
-          Conf{'\u200C'}idence Daily
+        <Link href="/" className="font-playfair font-semibold text-charcoal text-lg uppercase tracking-wider hover:opacity-80 transition-opacity">
+          Confidence Daily
         </Link>
         <a
           href="https://apps.apple.com/app/confidence-daily"

@@ -7,7 +7,7 @@ export default function Hero() {
         <p className="text-caps mb-6">Free on the App Store</p>
 
         <h1 className="font-playfair font-bold text-charcoal text-5xl md:text-6xl leading-tight tracking-tight mb-6">
-          Where <span className="text-gold">Conf{'\u200C'}idence</span>
+          Where <span className="text-gold uppercase">Confidence</span>
           <br />
           Becomes Habit
         </h1>

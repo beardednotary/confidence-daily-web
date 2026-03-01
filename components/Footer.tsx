@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="py-12 px-6 border-t border-taupe-light bg-warm-white">
       <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-6">
         <div>
-          <p className="font-playfair font-semibold text-charcoal text-base">Conf{'\u200C'}idence Daily</p>
+          <p className="font-playfair font-semibold text-charcoal text-base uppercase tracking-wider">Confidence Daily</p>
           <p className="font-inter text-text-tertiary text-sm mt-1">
             Built by{' '}
             <a
