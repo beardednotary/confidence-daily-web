@@ -37,7 +37,7 @@ export default function Pricing() {
             <p className="text-[0.7rem] font-semibold tracking-[0.1em] uppercase mb-2" style={{ color: '#C9A96E' }}>
               Pro
             </p>
-            <p className="font-playfair font-bold text-warm-white text-4xl mb-1">$49</p>
+            <p className="font-playfair font-bold text-warm-white text-4xl mb-1">$49.99</p>
             <p className="font-inter text-warm-white/50 text-sm mb-8">Lifetime</p>
             <ul className="space-y-3 mb-8 flex-1">
               {[
