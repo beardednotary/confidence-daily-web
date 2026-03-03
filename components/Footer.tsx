@@ -46,12 +46,10 @@ export default function Footer() {
             About
           </a>
           <a
-            href="https://apps.apple.com/app/confidence-daily"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/#waitlist"
             className="font-inter font-medium text-sm text-charcoal border border-charcoal rounded-full px-4 py-1.5 hover:bg-charcoal hover:text-warm-white transition-colors duration-200"
           >
-            Download
+            Join Waitlist
           </a>
         </div>
       </div>

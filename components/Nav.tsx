@@ -8,12 +8,10 @@ export default function Nav() {
           Confidence Daily
         </Link>
         <a
-          href="https://apps.apple.com/app/confidence-daily"
+          href="/#waitlist"
           className="text-sm font-inter font-medium text-charcoal border border-charcoal rounded-full px-4 py-1.5 hover:bg-charcoal hover:text-warm-white transition-colors duration-200"
-          target="_blank"
-          rel="noopener noreferrer"
         >
-          Download Free
+          Join Waitlist
         </a>
       </div>
     </nav>

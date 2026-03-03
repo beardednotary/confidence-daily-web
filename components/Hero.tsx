@@ -18,12 +18,10 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="https://apps.apple.com/app/confidence-daily"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/#waitlist"
             className="inline-flex items-center bg-charcoal text-warm-white font-inter font-semibold text-base px-8 py-4 rounded-xl hover:opacity-90 active:scale-[0.98] transition-all duration-200 shadow-md"
           >
-            Download on the App Store
+            Join Waitlist
           </a>
         </div>
         <p className="font-inter text-sm text-text-tertiary mt-3 mb-16">

@@ -54,12 +54,10 @@ export default function Pricing() {
               ))}
             </ul>
             <a
-              href="https://apps.apple.com/app/confidence-daily"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/#waitlist"
               className="block text-center bg-gold text-charcoal font-inter font-semibold text-sm py-3.5 rounded-xl hover:opacity-90 transition-opacity"
             >
-              Get Lifetime Access
+              Join Waitlist for Lifetime Deal
             </a>
           </div>
 
@@ -81,12 +79,10 @@ export default function Pricing() {
               ))}
             </ul>
             <a
-              href="https://apps.apple.com/app/confidence-daily"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/#waitlist"
               className="block text-center border border-charcoal text-charcoal font-inter font-semibold text-sm py-3.5 rounded-xl hover:bg-charcoal hover:text-warm-white transition-colors"
             >
-              Start Monthly
+              Join Waitlist
             </a>
           </div>
         </div>

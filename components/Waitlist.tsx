@@ -21,7 +21,7 @@ export default function Waitlist() {
   }
 
   return (
-    <section className="py-20 px-6 bg-white">
+    <section id="waitlist" className="py-20 px-6 bg-white">
       <div className="max-w-2xl mx-auto text-center">
         <p className="text-caps mb-4">Join the Waitlist</p>
         <h2 className="font-playfair font-bold text-charcoal text-4xl md:text-5xl tracking-tight mb-4">
