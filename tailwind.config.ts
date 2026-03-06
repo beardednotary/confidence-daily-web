@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
+  darkMode: 'class',
   content: [
     './app/**/*.{ts,tsx}',
     './components/**/*.{ts,tsx}',
@@ -15,6 +16,10 @@ const config: Config = {
         'taupe-light': '#EDE8E3',
         'text-secondary': '#6B6460',
         'text-tertiary': '#9C9490',
+        // Dark mode surfaces
+        'dark-bg': '#1B1B1B',
+        'dark-surface': '#111111',
+        'dark-border': '#2E2926',
       },
       fontFamily: {
         'playfair': ['var(--font-playfair)', 'Georgia', 'serif'],

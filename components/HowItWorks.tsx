@@ -18,20 +18,20 @@ const STEPS = [
 
 export default function HowItWorks() {
   return (
-    <section className="py-20 px-6 bg-white">
+    <section className="py-20 px-6 bg-white dark:bg-dark-surface">
       <div className="max-w-5xl mx-auto">
         <p className="text-caps text-center mb-4">How it works</p>
-        <h2 className="font-playfair font-bold text-charcoal text-4xl text-center tracking-tight mb-16">
+        <h2 className="font-playfair font-bold text-charcoal dark:text-warm-white text-4xl text-center tracking-tight mb-16">
           Simple by design.
         </h2>
 
         <div className="grid md:grid-cols-3 gap-10">
           {STEPS.map((step) => (
             <div key={step.title} className="flex flex-col items-start">
-              <h3 className="font-playfair font-semibold text-charcoal text-xl mb-3">
+              <h3 className="font-playfair font-semibold text-charcoal dark:text-warm-white text-xl mb-3">
                 {step.title}
               </h3>
-              <p className="font-inter text-text-secondary text-base leading-relaxed">
+              <p className="font-inter text-text-secondary dark:text-[#A09890] text-base leading-relaxed">
                 {step.description}
               </p>
             </div>

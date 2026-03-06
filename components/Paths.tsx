@@ -31,13 +31,13 @@ const PATHS = [
 
 export default function Paths() {
   return (
-    <section className="py-20 px-6 bg-white">
+    <section className="py-20 px-6 bg-white dark:bg-dark-surface">
       <div className="max-w-5xl mx-auto">
         <p className="text-caps text-center mb-4">Pro Paths</p>
-        <h2 className="font-playfair font-bold text-charcoal text-4xl text-center tracking-tight mb-4">
+        <h2 className="font-playfair font-bold text-charcoal dark:text-warm-white text-4xl text-center tracking-tight mb-4">
           Structured 8-week programs.
         </h2>
-        <p className="font-inter text-text-secondary text-center text-lg max-w-xl mx-auto mb-14 leading-relaxed">
+        <p className="font-inter text-text-secondary dark:text-[#A09890] text-center text-lg max-w-xl mx-auto mb-14 leading-relaxed">
           When you&apos;re ready for deeper work, unlock a path built for your specific goal.
           Progressive practices. Weekly reflections. Weekend challenges.
         </p>
@@ -46,15 +46,15 @@ export default function Paths() {
           {PATHS.map((path) => (
             <div
               key={path.title}
-              className={`relative bg-warm-white rounded-2xl p-6 border transition-all ${
+              className={`relative rounded-2xl p-6 border transition-all ${
                 path.available
-                  ? 'border-gold shadow-sm'
-                  : 'border-taupe-light opacity-60'
+                  ? 'bg-warm-white dark:bg-dark-bg border-gold shadow-sm'
+                  : 'bg-warm-white dark:bg-dark-bg border-taupe-light dark:border-dark-border opacity-60'
               }`}
             >
               {path.badge && (
-                <div className="absolute top-4 right-4 bg-taupe-light rounded-full px-2.5 py-1">
-                  <span className="font-inter font-semibold text-xs text-text-secondary">
+                <div className="absolute top-4 right-4 bg-taupe-light dark:bg-dark-border rounded-full px-2.5 py-1">
+                  <span className="font-inter font-semibold text-xs text-text-secondary dark:text-[#A09890]">
                     {path.badge}
                   </span>
                 </div>
@@ -67,10 +67,10 @@ export default function Paths() {
                 </div>
               )}
               <span className="text-4xl mb-4 block">{path.emoji}</span>
-              <h3 className="font-playfair font-semibold text-charcoal text-lg mb-1">
+              <h3 className="font-playfair font-semibold text-charcoal dark:text-warm-white text-lg mb-1">
                 {path.title}
               </h3>
-              <p className="font-inter text-text-secondary text-xs italic leading-snug">
+              <p className="font-inter text-text-secondary dark:text-[#A09890] text-xs italic leading-snug">
                 {path.subtitle}
               </p>
             </div>

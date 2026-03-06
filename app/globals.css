@@ -13,6 +13,11 @@
     font-family: var(--font-inter), system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
+
+  .dark body {
+    background-color: #1B1B1B;
+    color: #FAF8F5;
+  }
 }
 
 @layer utilities {
