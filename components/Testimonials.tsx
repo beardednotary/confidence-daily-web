@@ -18,10 +18,10 @@ const TESTIMONIALS = [
 
 export default function Testimonials() {
   return (
-    <section className="py-20 px-6 bg-warm-white dark:bg-dark-bg">
+    <section className="py-20 px-6 bg-warm-white">
       <div className="max-w-5xl mx-auto">
         <p className="text-caps text-center mb-4">Early users</p>
-        <h2 className="font-playfair font-bold text-charcoal dark:text-warm-white text-4xl text-center tracking-tight mb-14">
+        <h2 className="font-playfair font-bold text-charcoal text-4xl text-center tracking-tight mb-14">
           What people are
           <br />
           saying.
@@ -31,14 +31,14 @@ export default function Testimonials() {
           {TESTIMONIALS.map((t, i) => (
             <div
               key={i}
-              className="bg-white dark:bg-dark-surface rounded-2xl p-7 border border-taupe-light dark:border-dark-border flex flex-col"
+              className="bg-white rounded-2xl p-7 border border-taupe-light flex flex-col"
             >
-              <p className="font-playfair text-charcoal dark:text-warm-white text-lg leading-relaxed mb-6 flex-1">
+              <p className="font-playfair text-charcoal text-lg leading-relaxed mb-6 flex-1">
                 &ldquo;{t.quote}&rdquo;
               </p>
               <div>
-                <p className="font-inter font-semibold text-charcoal dark:text-warm-white text-sm">{t.name}</p>
-                <p className="font-inter text-text-tertiary dark:text-[#6B6460] text-xs mt-0.5">{t.context}</p>
+                <p className="font-inter font-semibold text-charcoal text-sm">{t.name}</p>
+                <p className="font-inter text-text-tertiary text-xs mt-0.5">{t.context}</p>
               </div>
             </div>
           ))}

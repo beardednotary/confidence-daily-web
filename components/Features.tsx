@@ -28,10 +28,10 @@ const FEATURES = [
 
 export default function Features() {
   return (
-    <section className="py-20 px-6 bg-warm-white dark:bg-dark-bg">
+    <section className="py-20 px-6 bg-warm-white">
       <div className="max-w-5xl mx-auto">
         <p className="text-caps text-center mb-4">Features</p>
-        <h2 className="font-playfair font-bold text-charcoal dark:text-warm-white text-4xl text-center tracking-tight mb-14">
+        <h2 className="font-playfair font-bold text-charcoal text-4xl text-center tracking-tight mb-14">
           Built for Real Growth
         </h2>
 
@@ -39,12 +39,12 @@ export default function Features() {
           {FEATURES.map((f) => (
             <div
               key={f.title}
-              className="bg-white dark:bg-dark-surface rounded-2xl p-7 border border-taupe-light dark:border-dark-border flex flex-col"
+              className="bg-white rounded-2xl p-7 border border-taupe-light flex flex-col"
             >
-              <h3 className="font-playfair font-semibold text-charcoal dark:text-warm-white text-xl mb-3">
+              <h3 className="font-playfair font-semibold text-charcoal text-xl mb-3">
                 {f.title}
               </h3>
-              <p className="font-inter text-text-secondary dark:text-[#A09890] text-sm leading-relaxed">
+              <p className="font-inter text-text-secondary text-sm leading-relaxed">
                 {f.description}
               </p>
               {f.extra === 'paths' && (
@@ -52,10 +52,10 @@ export default function Features() {
                   {PATHS_LIST.map((p) => (
                     <li key={p.label} className="flex items-start gap-2">
                       <span className="text-gold mt-0.5 text-xs">✓</span>
-                      <span className="font-inter text-sm text-charcoal dark:text-warm-white">
+                      <span className="font-inter text-sm text-charcoal">
                         {p.label}
                         {!p.available && (
-                          <span className="text-text-tertiary dark:text-[#6B6460] ml-1.5 text-xs">— {p.note}</span>
+                          <span className="text-text-tertiary ml-1.5 text-xs">— {p.note}</span>
                         )}
                       </span>
                     </li>
