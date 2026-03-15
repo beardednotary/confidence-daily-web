@@ -10,6 +10,13 @@ const PATHS = [
     emoji: '💼',
     title: 'Executive Presence',
     subtitle: 'For professionals who command rooms',
+    available: true,
+    badge: null,
+  },
+    {
+    emoji: '🎤',
+    title: 'Public Speaking',
+    subtitle: 'Stop dreading presentations',
     available: false,
     badge: 'March 2026',
   },
@@ -18,14 +25,7 @@ const PATHS = [
     title: 'Dating Confidence',
     subtitle: 'From anxiety to authentic connection',
     available: false,
-    badge: 'April 2026',
-  },
-  {
-    emoji: '🎤',
-    title: 'Public Speaking',
-    subtitle: 'Stop dreading presentations',
-    available: false,
-    badge: 'May 2026',
+    badge: 'Summer 2026',
   },
 ];
 
